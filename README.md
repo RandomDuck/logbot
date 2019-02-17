@@ -1,0 +1,1 @@
+This is my logbot for discord, i originaly made it in python but changed to javascript since it was esier to host.

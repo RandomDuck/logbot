@@ -1,0 +1,80 @@
+body{background-color: #111;}
+
+.loglink{
+    width: 80%;
+    display: block;
+    border: solid black 0.1em;
+    background-color: #333;
+    color: #f70;
+    padding: 0.3em;
+}
+.loglink>img{width: 20%}
+.wrapper{
+    display: block;
+    margin: 0.2% 24%;
+}
+.message{
+    width: 90%;
+    display: inline-block;
+    background-color: #333;
+    padding: 1em;
+    border: inset 0.1em;
+}
+
+.guild{color: #fc0;}
+.channel{color: yellow;}
+
+.date{
+    color: cornflowerblue; 
+    display: block;
+    padding: 0.3em;
+    padding-left: 2em;
+}
+.time{color: skyblue;}
+
+.author{color: #f70;}
+.authorname{
+    padding: 0.3em;
+    padding-left: 2em;
+    color: orange;
+    display: block;
+}
+.vid{
+    max-width: 50%;
+    float: right;
+}
+.img{
+    width: 25%;
+    float: right;
+}
+.attachment{
+    width: 30%;
+    float: right;
+    border: solid black 0.1em;
+    background-color: #111;
+    padding: 0.3em;
+}
+.attachmentText{
+    margin: 25% 0.1em;
+}
+.attachment>img{
+    float: left;
+    width: 20%; 
+    margin-right: 0.1em;
+}
+.content{color: lawngreen;}
+summary{
+    padding: 0.5em;
+    outline: unset
+}
+.detailWrap::after{
+    mix-blend-mode: color-dodge; 
+}
+.detailWrap{
+    font-weight: bold; 
+    padding: 0.5em;
+    margin-top:0.3em;
+}
+.subDet{
+    border: black 0.1em solid;
+}
